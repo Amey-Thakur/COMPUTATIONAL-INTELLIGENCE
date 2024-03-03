@@ -29,11 +29,6 @@ G=[g11 g12;g21 g22;g31 g32]
 
 H = [ones(3,1), G];
 
-
-
-
-
-
 disp('H matrix:');
 disp(H);
 
