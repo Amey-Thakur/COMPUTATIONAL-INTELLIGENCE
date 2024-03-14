@@ -10,35 +10,6 @@ y2 = [1 -1 -1 1]
 yt = [1 -1 1 1]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 % Perform element-wise multiplication
 x1_t_y1 = x1' * y1
 x2_t_y2 = x2' * y2
