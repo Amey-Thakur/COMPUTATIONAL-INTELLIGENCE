@@ -1,6 +1,6 @@
 # COMPUTATIONAL-INTELLIGENCE
 
- 👍🏻 ELEC8560: CI [SEMESTER IV]
+ 👍🏻 ELEC8330: CI [SEMESTER IV]
 
 ---
  
@@ -32,6 +32,7 @@
  
  - CI [Assignment 5](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet%20(4%25)/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) - Fuzzy Sets
    - Fuzzy Sets (FSet) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet%20(4%25)/fset.m)
+
 
 ---
 
