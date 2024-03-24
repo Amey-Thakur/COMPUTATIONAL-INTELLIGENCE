@@ -39,12 +39,18 @@
    - Radial Basis Function Networks (RBF) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20RBF/RBF.m)
 
  
- - CI [Assignment 5](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) - Fuzzy Sets
+ - CI [Assignment 5](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) - Fuzzy Sets
 
     - Fuzzy Sets (FSet) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/fset.m)
 
- - CI Assignment 6 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2b.pdf) ] - Fuzzy Logic and Reasoning
+
+ - CI Assignment 6 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2b.pdf) ] - Fuzzy Logic and Reasoning
     
+    - Fuzzy Logic and Reasoning (FLR) - [MATLAB]()
+
+ - CI Assignment 7 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2b.pdf) ] - Fuzzy System
+
+    - Fuzzy System (FSys) - [MATLAB]() 
 
 ---
 
