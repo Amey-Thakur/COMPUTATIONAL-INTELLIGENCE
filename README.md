@@ -4,7 +4,7 @@
 
 ---
  
- - [X] **[Syllabus](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Course%20(Upload%2C20240109)v2.pdf)**
+ - [X] **[Syllabus](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20(GA%2C20240323)v3.pdf)**
  
  - [X] **[Reference Books](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/tree/main/Reference%20Books)**
 
