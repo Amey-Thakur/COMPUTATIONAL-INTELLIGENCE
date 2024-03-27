@@ -53,6 +53,10 @@
     - Fuzzy System (FSys) - [MATLAB]
 
 
+ - CI Assignment 8 [ [Question A]() | [Question B]() ]
+ 
+    - () - [MATLAB]() 
+
 ---
 
 <p align="center"> <b> 👉🏻 Subject as a part of the 4th Semester of MEng @ University of Windsor 👈🏻 <b> </p>
