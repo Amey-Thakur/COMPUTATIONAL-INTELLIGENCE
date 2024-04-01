@@ -24,39 +24,41 @@
    -  Bidirectional Associative Memories (BAM) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20AM/BAM.m)
 
  
- - CI [Assignment 2](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) - Self Organising Maps
+ - CI [Assignment 2](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf)
 
    - Self Organising Maps (SOM) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20SOM/SOM.m) 
 
  
- - CI [Assignment 3](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) - Learning Vector Quantization
+ - CI [Assignment 3](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) 
 
    - Learning Vector Quantization (LVQ) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20LVQ/LVQ.m)
 
  
- - CI [Assignment 4](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) - Radial Basis Function Networks
+ - CI [Assignment 4](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) 
 
    - Radial Basis Function Networks (RBF) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20RBF/RBF.m)
 
  
- - CI [Assignment 5](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) - Fuzzy Sets
+ - CI [Assignment 5](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf)
 
     - Fuzzy Sets (FSet) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSet/fset.m)
 
 
- - CI Assignment 6 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2b.pdf) ] - Fuzzy Logic and Reasoning
-    
-    - Fuzzy Logic and Reasoning (FLR) - [MATLAB]
-
- - CI Assignment 7 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2b.pdf) ] - Fuzzy System
-
-    - Fuzzy System (FSys) - [MATLAB]
+ - CI Assignment 6 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2b.pdf) ] - Fuzzy Logic and Reasoning (FLR)
 
 
- - CI Assignment 8 [ [Question A]() | [Question B]() ]
+ - CI Assignment 7 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2a.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2b.pdf) ] - Fuzzy System (FSys)
+
+
+ - CI Assignment 8 [ [Question A](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20GA/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240326%20-%20Q1.pdf) | [Question B](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20GA/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240326%20-%20Q2.pdf) ]
  
-    - () - [MATLAB]()
+    - Genetic Algorithm (GA) - [MATLAB](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20GA/Genetic_Algorithm.m)
 
+
+ - CI [Assignment 9](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20CNN/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240331%20-%20Q1.pdf) - Convolution Neural Networks (CNNs)
+
+
+ - CI Assignment 10
 
 ---
 
