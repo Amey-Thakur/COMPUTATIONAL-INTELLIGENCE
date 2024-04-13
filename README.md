@@ -57,11 +57,6 @@
 
  - CI [Assignment 9](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE/blob/main/Assignments/Assignment%20-%20CNN/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240331%20-%20Q1.pdf) - Convolution Neural Networks (CNNs)
 
-
- - CI Assignment 10
-
-
-
 ---
 
 <p align="center"> <b> 👉🏻 Subject as a part of the 4th Semester of MEng @ University of Windsor 👈🏻 <b> </p>
