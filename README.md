@@ -174,7 +174,7 @@ Use these resources as templates for MATLAB scripting in intelligent systems, re
 These materials may serve as curriculum references, technical benchmarks for neural architecture, or supplementary instructional content in computational intelligence. Attribution is appreciated when utilizing content.
 
 **For Researchers**  
-The simulations and algorithmic implementations may provide insights into scholarly CI patterns and graduate-level intelligent systems documentation.
+The simulations and algorithmic implementations may provide insights into scholarly Computational Intelligence patterns and graduate-level intelligent systems documentation.
 
 ---
 
