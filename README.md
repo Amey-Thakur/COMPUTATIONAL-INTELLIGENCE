@@ -134,16 +134,18 @@ A specialized archival directory of technical solutions, meticulously categorize
 ---
 
 <!-- =========================================================================================
-                                     EXAM REVISION SECTION
+                                     EXAMINATIONS SECTION
      ========================================================================================= -->
-## Exam Revision
+## Examinations
 
-Summative evaluation roadmaps and technical drafts archived to support academic continuity during the Winter 2024 semester.
+The following examinations represent key assessment milestones in Computational Intelligence, documenting technical proficiency through mid-term evaluations and the final summative assessment.
 
-| # | Event | Archival Record | Description |
+### Graduate Examination Records
+
+| # | Examination Milestone | Date | Archival Deliverables |
 | :---: | :--- | :---: | :--- |
-| 1 | **Midterm Revision** | [Revision PDF](CI%20-%20Midterm%20Exam%20Revision.pdf) | Technical review and theoretical synthesis |
-| 2 | **Final Exam Preparation** | [Final Material](Final%20Exam/) | Core directory for end-of-semester assessments |
+| 1 | **Midterm Examination** | February 28, 2024 | • [Associative Memories Answer Sheet](Midterm%20Exam/AM-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Self-Organizing Maps Answer Sheet](Midterm%20Exam/SOM%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Radial Basis Function Answer Sheet](Midterm%20Exam/RBF%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf) |
+| 2 | **Final Examination** | April 15, 2024 | • [FSet Implementation](Final%20Exam/Z-MATLAB/FSet.m)<br>• [FLR Implementation](Final%20Exam/Z-MATLAB/FLR.m)<br>• [FSys Implementation](Final%20Exam/Z-MATLAB/FSys.m)<br>• [GA Implementation](Final%20Exam/Z-MATLAB/GA.m)<br>• [CNN Implementation](Final%20Exam/Z-MATLAB/CNN.m)<br>• [Midterm Revision Guide](CI%20-%20Midterm%20Exam%20Revision.pdf) |
 
 ---
 
@@ -156,7 +158,7 @@ Summative evaluation roadmaps and technical drafts archived to support academic 
 > Complete graduate-level syllabus document for the **Winter 2024** session, including detailed course outcomes, theoretical modules, and assessment criteria for Computational Intelligence.
 
 > [!IMPORTANT]
-> Always verify the latest syllabus details with the official University of Windsor academic portal, as curriculum specifications for intelligent systems may undergo instructor-led adaptations across different sessions.
+> Always verify the latest syllabus details with the official University of Windsor academic portal, as curriculum specifications for Computational Intelligence may undergo instructor-led adaptations across different sessions.
 
 ---
 
