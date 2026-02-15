@@ -144,7 +144,7 @@ The following examinations represent key assessment milestones in Computational 
 
 | # | Examination Milestone | Date | Archival Deliverables |
 | :---: | :--- | :---: | :--- |
-| 1 | **Midterm Examination** | February 28, 2024 | • [Associative Memories Answer Sheet](Midterm%20Exam/AM-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Self-Organizing Maps Answer Sheet](Midterm%20Exam/SOM%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Radial Basis Function Answer Sheet](Midterm%20Exam/RBF%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [4RBF Supplemental Answer Sheet](Midterm%20Exam/4RBF%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf) |
+| 1 | **Midterm Examination** | February 28, 2024 | • [Q2A & Q2B Associative Memories Answer Sheet](Midterm%20Exam/AM-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Q2 Radial Basis Function Answer Sheet (A)](Midterm%20Exam/RBF%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Q2 Radial Basis Function Answer Sheet (B)](Midterm%20Exam/4RBF%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf)<br>• [Q2 Self-Organizing Maps Answer Sheet](Midterm%20Exam/SOM%20-%20Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-28.pdf) |
 | 2 | **Final Examination** | April 15, 2024 | • [FSet Implementation](Final%20Exam/Z-MATLAB/FSet.m)<br>• [FLR Implementation](Final%20Exam/Z-MATLAB/FLR.m)<br>• [FSys Implementation](Final%20Exam/Z-MATLAB/FSys.m)<br>• [GA Implementation](Final%20Exam/Z-MATLAB/GA.m)<br>• [CNN Implementation](Final%20Exam/Z-MATLAB/CNN.m)<br>• [Midterm Revision Guide](CI%20-%20Midterm%20Exam%20Revision.pdf) |
 
 ---
