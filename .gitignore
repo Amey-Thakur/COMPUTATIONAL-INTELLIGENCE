@@ -1,0 +1,27 @@
+# Computational Intelligence - Academic Repository
+# Specialized .gitignore for Computational Intelligence scholarly archiving
+
+# OS-generated files
+[Tt]humbs.db
+[Dd]esktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and Cache files
+*.tmp
+*.log
+.cache/
+
+# Word Processing / Document artifacts
+~$*
+*.bak
+*.sav
+*.old
