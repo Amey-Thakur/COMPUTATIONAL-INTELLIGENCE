@@ -168,7 +168,7 @@ Summative evaluation roadmaps and technical drafts archived to support academic 
 This repository is openly shared to support learning and knowledge exchange across the academic community.
 
 **For Students**  
-Use these resources as templates for MATLAB scripting in intelligent systems, reference materials for fuzzy reasoning, and examples of evolutionary optimization. All content is organized to support self-paced learning and assignment preparation.
+Use these resources as templates for MATLAB scripting in intelligent systems, reference materials for fuzzy reasoning, and examples of evolutionary optimization. All content is organized to support self-paced learning.
 
 **For Educators**  
 These materials may serve as curriculum references, technical benchmarks for neural architecture, or supplementary instructional content in computational intelligence. Attribution is appreciated when utilizing these scholarly resources.
