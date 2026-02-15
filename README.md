@@ -74,8 +74,8 @@ This collection includes **comprehensive reference materials** covering all majo
 
 | # | Resource | Focus Area |
 |:-:|:---|:---|
-| 1 | [Intelligent Computing - Hon K. Kwan](Reference%20Books/Hon%20K.%20Kwan%20-%20Intelligent%20Computing%20A%20Computing%20Approach%20to%20Artificial%20Intelligence%20(2023).pdf) | Core textbook for advanced AI paradigms and neural computation. |
-| 2 | [Worked Problems in Intelligent Computing](Reference%20Books/Hon%20K.%20Kwan%20-%20Matlab%20and%20Worked%20Problems%20in%20Intelligent%20Computing%20(2023).pdf) | Practical exercise suite and MATLAB-integrated problem-solving. |
+| 1 | [Intelligent Computing - Hon K. Kwan](Reference%20Books/Hon%20K.%20Kwan%20-%20Intelligent%20Computing%20A%20Computing%20Approach%20to%20Artificial%20Intelligence.pdf) | Core textbook for advanced AI paradigms and neural computation. |
+| 2 | [Worked Problems in Intelligent Computing](Reference%20Books/Hon%20K.%20Kwan%20-%20Matlab%20and%20Worked%20Problems%20in%20Intelligent%20Computing%20and%20System%20Design.pdf) | Practical exercise suite and MATLAB-integrated problem-solving. |
 
 ---
 
