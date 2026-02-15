@@ -86,8 +86,7 @@ Academic roadmap and administrative records for the Winter 2024 session:
 |:-:|:---|:---|
 | 1 | [Course Syllabus](ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20(GA%2C20240323)v3.pdf) | Official course outcomes and assessment specifications |
 | 2 | [MEng Class Schedule](View%20My%20Classes%20-%20Winter%202024.pdf) | Enrollment record and pedagogical timeline |
-| 3 | [CI Grades](CI%20Grades.pdf) | Official academic performance and assessment record |
-| 4 | [Midterm Exam Revision](CI%20-%20Midterm%20Exam%20Revision.pdf) | Targeted theoretical synthesis for midterm evaluation |
+| 3 | [Midterm Exam Revision](CI%20-%20Midterm%20Exam%20Revision.pdf) | Targeted theoretical synthesis for midterm evaluation |
 
 ---
 
