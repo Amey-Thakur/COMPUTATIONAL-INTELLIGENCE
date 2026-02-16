@@ -175,7 +175,7 @@ The graded performance record documents academic achievement across various asse
 
 | # | Assessment Category | Marks | Archival Record |
 | :---: | :--- | :---: | :---: |
-| 1 | Final Adjusted Grade | 80 / 100 (80%) | [View Grades](CI%20Grades.pdf) |
+| 1 | Final Grade | 80 / 100 (80%) | [View Grades](CI%20Grades.pdf) |
 
 ---
 
