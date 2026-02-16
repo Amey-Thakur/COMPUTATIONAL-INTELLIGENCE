@@ -166,6 +166,19 @@ The following examinations represent key assessment milestones in Computational 
 ---
 
 <!-- =========================================================================================
+                                     GRADES SECTION
+     ========================================================================================= -->
+## Grades
+
+The graded performance record documents academic achievement across various assessment categories including the MATLAB project and final examination.
+
+| # | Assessment Category | Archival Record |
+| :---: | :--- | :---: |
+| 1 | Final Grade Report | [View Grades](CI%20Grades.pdf) |
+
+---
+
+<!-- =========================================================================================
                                      SYLLABUS SECTION
      ========================================================================================= -->
 ## Syllabus
