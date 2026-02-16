@@ -99,15 +99,15 @@ A granular record of analytical assessments and tactical computational proofs co
 
 | # | Assignment | Topics | Marks |
 | :-: | :--- | :--- | :---: |
-| 1 | [**Assignment 1**](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | Associative Memories (AM/BAM) | — |
-| 2 | [**Assignment 2**](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | Self-Organizing Maps (SOM) | — |
-| 3 | [**Assignment 3**](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | Learning Vector Quantization (LVQ) | — |
-| 4 | [**Assignment 4**](Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) | Radial Basis Function (RBF) | — |
-| 5 | [**Assignment 5**](Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) | Fuzzy Sets (FSet) | — |
-| 6 | **Assignment 6** | Fuzzy Logic and Reasoning (FLR) | [Q2a](Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2a.pdf) / [Q2b](Assignments/Assignment%20-%20FLR/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240320%20-%20Q2b.pdf) |
-| 7 | **Assignment 7** | Fuzzy Systems (FSys) | [Q2a](Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2a.pdf) / [Q2b](Assignments/Assignment%20-%20FSys/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240322%20-%20Q2b.pdf) |
-| 8 | **Assignment 8** | Genetic Algorithms (GA) | [Q1](Assignments/Assignment%20-%20GA/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240326%20-%20Q1.pdf) / [Q2](Assignments/Assignment%20-%20GA/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240326%20-%20Q2.pdf) |
-| 9 | [**Assignment 9**](Assignments/Assignment%20-%20CNN/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240331%20-%20Q1.pdf) | Convolutional Neural Networks (CNNs) | — |
+| 1 | [**Assignment 1**](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | Associative Memories (AM/BAM) | 1 / 3 (33.33%) |
+| 2 | [**Assignment 2**](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | Self-Organizing Maps (SOM) | 4 / 4 (100%) |
+| 3 | [**Assignment 3**](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | Learning Vector Quantization (LVQ) | 3 / 3 (100%) |
+| 4 | [**Assignment 4**](Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) | Radial Basis Function (RBF) | 3 / 3 (100%) |
+| 5 | [**Assignment 5**](Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) | Fuzzy Sets (FSet) | 4 / 4 (100%) |
+| 6 | **Assignment 6** | Fuzzy Logic and Reasoning (FLR) | 4 / 4 (100%) |
+| 7 | **Assignment 7** | Fuzzy Systems (FSys) | 4 / 4 (100%) |
+| 8 | **Assignment 8** | Genetic Algorithms (GA) | 0 / 4 (0%) |
+| 9 | [**Assignment 9**](Assignments/Assignment%20-%20CNN/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240331%20-%20Q1.pdf) | Convolutional Neural Networks (CNNs) | 2 / 2 (100%) |
 
 ---
 
@@ -170,7 +170,7 @@ The following examinations represent key assessment milestones in Computational 
      ========================================================================================= -->
 ## Grades
 
-The graded performance record documents academic achievement across various assessment categories including the MATLAB project and final examination.
+The graded performance record documents academic achievement across various assessment categories including assignments, midterm evaluations, and the final examination.
 
 | # | Assessment Category | Archival Record |
 | :---: | :--- | :---: |
