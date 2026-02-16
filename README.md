@@ -123,13 +123,13 @@ A specialized archival directory of technical solutions, meticulously categorize
 
 | # | Topic | Assignment | Solution |
 | :-: | :--- | :---: | :--- |
-| 1 | **Associative Memories** | A01 | • [Hebb Learning (Gh)](Assignments/Assignment%20-%20AM/Gh.m)<br>• [BAM Simulation](Assignments/Assignment%20-%20AM/BAM.m) |
-| 2 | **Self-Organizing Maps** | A02 | • [SOM Architecture](Assignments/Assignment%20-%20SOM/SOM.m) |
-| 3 | **Vector Quantization** | A03 | • [LVQ Implementation](Assignments/Assignment%20-%20LVQ/LVQ.m) |
-| 4 | **Radial Basis Functions** | A04 | • [RBF Network](Assignments/Assignment%20-%20RBF/RBF.m)<br>• [RBF Personal](Assignments/Assignment%20-%20RBF/RBF_AMEY.m) |
-| 5 | **Fuzzy Logic Foundations** | A05 | • [Fuzzy Set Theory](Assignments/Assignment%20-%20FSet/FSet.m) |
-| 6 | **Genetic Algorithms** | A08 | • [Optimization Suite](Assignments/Assignment%20-%20GA/Genetic_Algorithm.m) |
-| 7 | **Utility Simulations** | — | • [Bin to Dec](MATLAB/Bin_2_Dec.m)<br>• [Dec to Bin](MATLAB/Dec_2_Bin.m) |
+| 1 | **Associative Memories** | A01 | • **[Bidirectional Associative Memory](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m)** — MATLAB Program — by Amey Thakur<br>• **[Generalized Hopfield Network](Assignments/Assignment%20-%20AM/Generalized_Hopfield_Step_Function.m)** — MATLAB Program — by Amey Thakur |
+| 2 | **Self-Organizing Maps** | A02 | • **[Self-Organizing Maps (Kohonen)](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m)** — MATLAB Program — by Amey Thakur |
+| 3 | **Vector Quantization** | A03 | • **[Learning Vector Quantization](Assignments/Assignment%20-%20LVQ/Learning_Vector_Quantization.m)** — MATLAB Program — by Amey Thakur |
+| 4 | **Radial Basis Functions** | A04 | • **[Radial Basis Function Network](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Network.m)** — MATLAB Program — by Amey Thakur<br>• **[Radial Basis Function Optimization](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Optimization.m)** — MATLAB Program — by Amey Thakur |
+| 5 | **Fuzzy Logic Foundations** | A05 | • **[Fuzzy Set Theory Operations](Assignments/Assignment%20-%20FSet/Fuzzy_Set_Theory_Operations.m)** — MATLAB Program — by Amey Thakur |
+| 6 | **Genetic Algorithms** | A08 | • **[Genetic Algorithm Implementation](Assignments/Assignment%20-%20GA/Genetic_Algorithm_Implementation.m)** — MATLAB Program — by Amey Thakur |
+| 7 | **Utility Simulations** | — | • **[Binary to Decimal Conversion](MATLAB/Binary_to_Decimal_Conversion.m)** — MATLAB Program — by Amey Thakur<br>• **[Decimal to Binary Conversion](MATLAB/Decimal_to_Binary_Conversion.m)** — MATLAB Program — by Amey Thakur |
 
 ---
 
