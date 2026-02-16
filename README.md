@@ -100,14 +100,14 @@ A granular record of analytical assessments and tactical computational proofs co
 | # | Assignment | Topics | Source Code | Marks |
 | :-: | :--- | :--- | :---: | :---: |
 | 1 | [**AM Quiz**](Assignments/Assignment%20-%20AM/Summary%20-%20Assignment%20-%20AM%20(3%25).pdf) | Associative Memories (AM) | — | 1 / 1 |
-| 2 | [**Assignment 1**](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | Associative Memories (AM/BAM) | [View](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m) | 1 / 3 |
-| 3 | [**Assignment 2**](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | Self-Organizing Maps (SOM) | [View](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m) | 4 / 4 |
-| 4 | [**Assignment 3**](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | Learning Vector Quantization (LVQ) | [View](Assignments/Assignment%20-%20LVQ/Learning_Vector_Quantization.m) | 3 / 3 |
-| 5 | [**Assignment 4**](Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) | Radial Basis Function (RBF) | [View](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Network.m) | 3 / 3 |
-| 6 | [**Assignment 5**](Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) | Fuzzy Sets (FSet) | [View](Assignments/Assignment%20-%20FSet/Fuzzy_Set_Theory_Operations.m) | 4 / 4 |
+| 2 | [**Assignment 1**](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | Associative Memories (AM/BAM) | [BAM](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m) & [Hopfield](Assignments/Assignment%20-%20AM/Generalized_Hopfield_Step_Function.m) | 1 / 3 |
+| 3 | [**Assignment 2**](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | Self-Organizing Maps (SOM) | [SOM](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m) | 4 / 4 |
+| 4 | [**Assignment 3**](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | Learning Vector Quantization (LVQ) | [LVQ](Assignments/Assignment%20-%20LVQ/Learning_Vector_Quantization.m) | 3 / 3 |
+| 5 | [**Assignment 4**](Assignments/Assignment%20-%20RBF/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-19.pdf) | Radial Basis Function (RBF) | [RBF](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Network.m) & [RBF Opt](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Optimization.m) | 3 / 3 |
+| 6 | [**Assignment 5**](Assignments/Assignment%20-%20FSet/Attempt-2/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240314.pdf) | Fuzzy Sets (FSet) | [FSet](Assignments/Assignment%20-%20FSet/Fuzzy_Set_Theory_Operations.m) | 4 / 4 |
 | 7 | **Assignment 6** | Fuzzy Logic and Reasoning (FLR) | — | 4 / 4 |
 | 8 | **Assignment 7** | Fuzzy Systems (FSys) | — | 4 / 4 |
-| 9 | **Assignment 8** | Genetic Algorithms (GA) | [View](Assignments/Assignment%20-%20GA/Genetic_Algorithm_Implementation.m) | 0 / 4 |
+| 9 | **Assignment 8** | Genetic Algorithms (GA) | [GA](Assignments/Assignment%20-%20GA/Genetic_Algorithm_Implementation.m) | 0 / 4 |
 | 10 | [**Assignment 9**](Assignments/Assignment%20-%20CNN/Electronic%20Answer%20Book%20Submission%20-%20Thakur%2C%20Amey%20Mahendra%2C%20110107589%2C%2020240331%20-%20Q1.pdf) | Convolutional Neural Networks (CNNs) | — | 2 / 2 |
 
 ---
