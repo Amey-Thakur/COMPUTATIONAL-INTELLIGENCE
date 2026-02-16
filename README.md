@@ -121,25 +121,25 @@ Technical solutions and algorithmic models developed to implement neural network
 > [!TIP]
 > Computational Intelligence is not merely the execution of algorithms; it is the **bridge between biological intuition and computational innovation**. Every module below focuses on the critical translation from **Biological Heuristics** to **Intelligent Systems**, enabling the iterative design and verification of complex engineering paradigms.
 
-| # | Topic | Source Code | View |
-| :-: | :--- | :--- | :---: |
-| 1 | **Associative Memories** | Bidirectional Associative Memory — MATLAB Program — by Amey Thakur | [View](MATLAB/Bidirectional_Associative_Memory.m) |
-| 2 | **Associative Memories** | Generalized Hopfield Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Generalized_Hopfield_Step_Function.m) |
-| 3 | **Self-Organizing Maps** | Self-Organizing Maps (Kohonen) — MATLAB Program — by Amey Thakur | [View](MATLAB/Self_Organizing_Maps_Kohonen.m) |
-| 4 | **Vector Quantization** | Learning Vector Quantization — MATLAB Program — by Amey Thakur | [View](MATLAB/Learning_Vector_Quantization.m) |
-| 5 | **Radial Basis Functions** | Radial Basis Function Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Radial_Basis_Function_Network.m) |
-| 6 | **Radial Basis Functions** | Radial Basis Function Optimization — MATLAB Program — by Amey Thakur | [View](MATLAB/Radial_Basis_Function_Optimization.m) |
-| 7 | **Fuzzy logic and Reasoning** | Fuzzy Logic and Reasoning — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Logic_and_Reasoning.m) |
-| 8 | **Fuzzy Reasoning System** | Fuzzy Reasoning System — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Reasoning_System.m) |
-| 9 | **Fuzzy Set Theory** | Fuzzy Set Theory — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Set_Theory.m) |
-| 10 | **Fuzzy Logic Foundations** | Fuzzy Set Theory Operations — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Set_Theory_Operations.m) |
-| 11 | **Genetic Algorithms** | Genetic Algorithm Implementation — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Implementation.m) |
-| 12 | **Genetic Algorithms** | Genetic Algorithm Optimization — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Optimization.m) |
-| 13 | **Genetic Algorithms** | Genetic Algorithm Variant I — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Variant_I.m) |
-| 14 | **Genetic Algorithms** | Genetic Algorithm Variant II — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Variant_II.m) |
-| 15 | **Deep Learning** | Convolutional Neural Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Convolutional_Neural_Network.m) |
-| 16 | **Utility Simulations** | Binary to Decimal Conversion — MATLAB Program — by Amey Thakur | [View](MATLAB/Binary_to_Decimal_Conversion.m) |
-| 17 | **Utility Simulations** | Decimal to Binary Conversion — MATLAB Program — by Amey Thakur | [View](MATLAB/Decimal_to_Binary_Conversion.m) |
+| # | Topic | Source Code |
+| :-: | :--- | :--- |
+| 1 | **Associative Memories (AM)** | [View Source Code](MATLAB/Bidirectional_Associative_Memory.m) — Bidirectional Associative Memory — MATLAB Program |
+| 2 | **Associative Memories (AM)** | [View Source Code](MATLAB/Generalized_Hopfield_Step_Function.m) — Generalized Hopfield Network — MATLAB Program |
+| 3 | **Self-Organizing Maps (SOM)** | [View Source Code](MATLAB/Self_Organizing_Maps_Kohonen.m) — Self-Organizing Maps (Kohonen) — MATLAB Program |
+| 4 | **Vector Quantization (LVQ)** | [View Source Code](MATLAB/Learning_Vector_Quantization.m) — Learning Vector Quantization — MATLAB Program |
+| 5 | **Radial Basis Functions (RBF)** | [View Source Code](MATLAB/Radial_Basis_Function_Network.m) — Radial Basis Function Network — MATLAB Program |
+| 6 | **Radial Basis Functions (RBF)** | [View Source Code](MATLAB/Radial_Basis_Function_Optimization.m) — Radial Basis Function Optimization — MATLAB Program |
+| 7 | **Fuzzy Logic and Reasoning (FLR)** | [View Source Code](MATLAB/Fuzzy_Logic_and_Reasoning.m) — Fuzzy Logic and Reasoning — MATLAB Program |
+| 8 | **Fuzzy Systems (FSys)** | [View Source Code](MATLAB/Fuzzy_Reasoning_System.m) — Fuzzy Reasoning System — MATLAB Program |
+| 9 | **Fuzzy Set Theory (FSet)** | [View Source Code](MATLAB/Fuzzy_Set_Theory.m) — Fuzzy Set Theory — MATLAB Program |
+| 10 | **Fuzzy Set Theory (FSet)** | [View Source Code](MATLAB/Fuzzy_Set_Theory_Operations.m) — Fuzzy Set Theory Operations — MATLAB Program |
+| 11 | **Genetic Algorithms (GA)** | [View Source Code](MATLAB/Genetic_Algorithm_Implementation.m) — Genetic Algorithm Implementation — MATLAB Program |
+| 12 | **Genetic Algorithms (GA)** | [View Source Code](MATLAB/Genetic_Algorithm_Optimization.m) — Genetic Algorithm Optimization — MATLAB Program |
+| 13 | **Genetic Algorithms (GA)** | [View Source Code](MATLAB/Genetic_Algorithm_Variant_I.m) — Genetic Algorithm Variant I — MATLAB Program |
+| 14 | **Genetic Algorithms (GA)** | [View Source Code](MATLAB/Genetic_Algorithm_Variant_II.m) — Genetic Algorithm Variant II — MATLAB Program |
+| 15 | **Deep Learning (CNN)** | [View Source Code](MATLAB/Convolutional_Neural_Network.m) — Convolutional Neural Network — MATLAB Program |
+| 16 | **Utility Simulations (Util)** | [View Source Code](MATLAB/Binary_to_Decimal_Conversion.m) — Binary to Decimal Conversion — MATLAB Program |
+| 17 | **Utility Simulations (Util)** | [View Source Code](MATLAB/Decimal_to_Binary_Conversion.m) — Decimal to Binary Conversion — MATLAB Program |
 
 ---
 
