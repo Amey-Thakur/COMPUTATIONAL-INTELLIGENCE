@@ -114,14 +114,14 @@ A granular record of analytical assessments and tactical computational proofs co
 <!-- =========================================================================================
                                      MATLAB IMPLEMENTATIONS SECTION
      ========================================================================================= -->
-## MATLAB Implementations
+## MATLAB Programs
 
-A specialized archival directory of technical solutions, meticulously categorized by textbook chapter and tutorial milestone.
+Technical solutions and algorithmic models developed to implement neural networks, fuzzy logic, and genetic algorithms.
 
 > [!TIP]
 > Computational Intelligence is not merely the execution of algorithms; it is the **bridge between biological intuition and computational innovation**. Every module below focuses on the critical translation from **Biological Heuristics** to **Intelligent Systems**, enabling the iterative design and verification of complex engineering paradigms.
 
-| # | Topic | Assignment | Solution |
+| # | Topic | Assignment | Archival Implementations |
 | :-: | :--- | :---: | :--- |
 | 1 | **Associative Memories** | A01 | • **[Bidirectional Associative Memory](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m)** — MATLAB Program — by Amey Thakur<br>• **[Generalized Hopfield Network](Assignments/Assignment%20-%20AM/Generalized_Hopfield_Step_Function.m)** — MATLAB Program — by Amey Thakur |
 | 2 | **Self-Organizing Maps** | A02 | • **[Self-Organizing Maps (Kohonen)](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m)** — MATLAB Program — by Amey Thakur |
