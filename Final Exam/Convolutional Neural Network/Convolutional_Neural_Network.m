@@ -7,20 +7,18 @@
 % License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 % 
 % Description: 
-% This script simulates the structural calculations for a Convolutional 
-% Neural Network (CNN) layer. It computes the total number of trainable 
-% parameters (weights and biases), determines the output feature map 
-% dimensions based on stride, padding, and dilation, and calculates 
-% the total neuronal density in the resulting volume. This serves as a 
-% fundamental exercise in understanding architectural constraints in 
-% deep learning models.
+% Structural analysis and parameter estimation for a Convolutional 
+% Neural Network (CNN) layer. The script computes trainable parameter 
+% counts, determines output feature map dimensions based on spatial 
+% constraints (stride, padding, dilation), and calculates final 
+% neuronal density.
 % =========================================================================
 
 % -------------------------------------------------------------------------
 % 1. Input Image Configuration
 % -------------------------------------------------------------------------
-% First, I'm defining the spatial dimensions and channel depth of the input tensor.
-% M: Height, N: Width, nC: Number of Color Channels (e.g., RGB = 3)
+% Spatial dimensions and channel depth definition for the input tensor.
+% M: Height, N: Width, nC: Color Channels (RGB = 3)
 M = 64; 
 N = 64; 
 nC = 3;
@@ -28,28 +26,25 @@ nC = 3;
 % -------------------------------------------------------------------------
 % 2. Convolutional Layer Hyperparameters
 % -------------------------------------------------------------------------
-% These are the parameters that define the geometric transformation applied by the filters.
-nF = 8;     % nF: Total number of independent filters (kernels) in the layer
-F1 = 5;     % F1: Spatial height of the filter kernel
-F2 = 5;     % F2: Spatial width of the filter kernel
-D = 4;      % D: Dilation factor (how much I'm spacing out the kernel elements)
-S = 1;      % S: Stride (the step size as the kernel moves across the image)
-P = 1;      % P: Zero-padding (adding extra pixel borders to the input)
+% Geometric transformation parameters for the filter kernels.
+nF = 8;     % Total independent filters
+F1 = 5;     % Filter height
+F2 = 5;     % Filter width
+D = 4;      % Dilation factor
+S = 1;      % Stride
+P = 1;      % Zero-padding
 
 % -------------------------------------------------------------------------
 % 3. Parameter Estimation (Trainable Weights)
 % -------------------------------------------------------------------------
-% Now I'll estimate the weight count for a convolutional filter based 
-% on kernel size and the depth of the input volume (nC), plus one bias term.
+% Calculation of trainable weights per filter and total layer parameters.
+% Formula: (FilterHeight * FilterWidth * InputChannels) + Bias
 
-% I'm calculating weights per single filter: (FilterHeight * FilterWidth * InputChannels) + Bias
 W = (F1 * F2 * nC) + 1;
-
-% Then, the total weights for the entire layer: (WeightsPerFilter * TotalFilters)
 nW = W * nF;
 
 % -------------------------------------------------------------------------
-% 4. Architectural Analysis Output (Console Display)
+% 4. Architectural Analysis Output
 % -------------------------------------------------------------------------
 fprintf('\n============================================================\n');
 fprintf('           CONVOLUTIONAL NEURAL NETWORK ARCHITECTURE          \n');
@@ -69,12 +64,11 @@ fprintf('• Weights per Filter (W):      (%%d x %%d x %%d) + 1 = %%d\n', F1, F2
 fprintf('• Total Layer Weights (nW):    %%d x %%d = %%d\n\n', W, nF, nW);
 
 % -------------------------------------------------------------------------
-% 5. Spatial Transformation Logic (Output Dimensionality)
+% 5. Spatial Transformation Logic
 % -------------------------------------------------------------------------
-% Here, I'm calculating the spatial dimensions of the output feature map.
-% The formula takes into account padding (P), dilation (D), and stride (S).
-
-% Effective filter size due to dilation: Feft = D * (F - 1) + 1
+% Calculation of output feature map dimensions accounting for dilation 
+% and stride constraints.
+% Effective filter size: Feft = D * (F - 1) + 1
 % Output Size: floor((Input + 2*Padding - Feft) / Stride + 1)
 
 M_out = floor((M + 2*P - D*(F1-1) - 1) / S + 1);
@@ -85,9 +79,9 @@ fprintf('• Output Height (M_out):       floor((%%d + 2*%%d - %%d*(%%d-1) - 1) 
 fprintf('• Output Width (N_out):        floor((%%d + 2*%%d - %%d*(%%d-1) - 1) / %%d + 1) = %%d\n\n', N, P, D, F2, S, N_out);
 
 % -------------------------------------------------------------------------
-% 6. Feature Map Analysis
+% 6. Feature Map Volumetrics
 % -------------------------------------------------------------------------
-% Each filter is going to produce one feature map in the output volume.
+% Determination of individual feature map spatial density.
 Mc = M_out; 
 Nc = N_out; 
 
@@ -97,8 +91,7 @@ fprintf('• Individual Map Size:          [%%d x %%d] = %%d neurons\n\n', Mc, N
 % -------------------------------------------------------------------------
 % 7. Final Neuronal Density
 % -------------------------------------------------------------------------
-% Finally, the total number of neurons in the layer's output is the product 
-% of feature map spatial size and the total number of filters.
+% Total neuronal count calculation for the output volume.
 total_neurons = Mc * Nc * nF;
 
 fprintf('STEP 3: TOTAL NEURONAL COUNT\n');
@@ -106,12 +99,12 @@ fprintf('• Total Output Neurons:         %%d x %%d x %%d = %%d\n', Mc, Nc, nF,
 fprintf('============================================================\n\n');
 
 % -------------------------------------------------------------------------
-% Scholarly Insight: The Spatial Complexity of Deep Learning
+% Scholarly Insight: Structural Constraints in Deep Architectures
 % -------------------------------------------------------------------------
-% Understanding these structural calculations is fundamental because it 
-% highlights how architectural choices—like dilation and stride—directly 
-% impact the computational overhead and the "receptive field" of the 
-% network. In this script, I've shown how even a simple 64x64 input can 
-% quickly scale in neuronal density depending on filter count. Mastering 
-% this geometry is what allows us to design efficient models that don't 
-% just perform well, but are also optimized for the underlying hardware.
+% Architectural parameters such as dilation and stride serve as primary 
+% determinants for both the receptive field and the resulting 
+% computational density of a convolutional layer. Precise calculation 
+% of these spatial constraints is critical for hardware optimization and 
+% ensuring appropriate feature extraction resolution. This analysis 
+% underscores the scaling relationship between input dimensions and 
+% volumetric neuronal density in neural inference models.

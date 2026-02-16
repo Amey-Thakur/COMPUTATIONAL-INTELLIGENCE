@@ -7,15 +7,13 @@
 % License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 % 
 % Description: 
-% This script implements a Fuzzy Logic Reasoning module that calculates 
-% the geometric properties (Center of Gravity and Area) of various 
-% membership functions (Trapezoidal and Triangular). It demonstrates 
-% the defuzzification process using the Weighted Average Method to derive 
-% a crisp output from multiple fuzzy sets. This is a foundational 
-% component of Mamdani-style fuzzy inference systems.
+% Implementation of geometric analysis for fuzzy membership functions 
+% (Trapezoidal and Triangular). The script computes centroids and areas 
+% for consequent sets and executes defuzzification using the Weighted 
+% Average Method to derive crisp control signals.
 % =========================================================================
 
-% Clear environment and set default precision
+% Precision and environment initialization
 format default;
 clc;
 
@@ -24,35 +22,35 @@ clc;
 % -------------------------------------------------------------------------
 
 % --- Membership Function 1: Trapezoidal (Left-Heavy) ---
-% I've defined this as B1 = [a, b, c, d] = [0, 2, 4, 6]
+% Definition: B1 = [0, 2, 4, 6]
 B1 = [0, 2, 4, 6];
-% Here's the theoretical centroid (Center of Gravity for the Trapezoid)
+% Theoretical centroid (Center of Gravity) calculation
 B1_Centroid = (B1(1) + B1(4)) / 2;
-% And the geometric area calculation: ((base1 + base2) / 2) * height
+% Geometric area calculation: ((base1 + base2) / 2) * height
 B1_Area = ((B1(4)-B1(1)) + (B1(3)-B1(2))) / 2;
 
 % --- Membership Function 2: Triangular ---
-% Definition: B2 = [a, b, c] = [4, 6, 8]
+% Definition: B2 = [4, 6, 8]
 B2 = [4, 6, 8];
-% Theoretical Centroid for the triangle
+% Theoretical centroid for the triangular distribution
 B2_Centroid = (B2(1) + B2(3)) / 2; 
-% Geometric Area Calculation: (base * height) / 2
+% Geometric area calculation: (base * height) / 2
 B2_Area = (B2(3)-B2(1)) / 2;
 
 % --- Membership Function 3: Trapezoidal (Right-Heavy) ---
-% Definition: B3 = [a, b, c, d] = [6, 8, 9.6, 11.6]
+% Definition: B3 = [6, 8, 9.6, 11.6]
 B3 = [6, 8, 9.6, 11.6];
-% Theoretical Centroid for this second trapezoid
+% Theoretical centroid calculation for the secondary trapezoid
 B3_Centroid = (B3(1) + B3(4)) / 2;
-% Geometric Area Calculation
+% Geometric area calculation
 B3_Area = ((B3(4)-B3(1)) + (B3(3)-B3(2))) / 2;
 
-% I'm aggregating these properties now for batch processing
+% Property aggregation for batch processing
 areas = [B1_Area B2_Area B3_Area];
 centroids = [B1_Centroid B2_Centroid B3_Centroid];
 
 % -------------------------------------------------------------------------
-% 2. Theoretical Analysis Output
+% 2. Geometric Analysis Results
 % -------------------------------------------------------------------------
 fprintf('\n============================================================\n');
 fprintf('           FUZYY LOGIC REASONING: GEOMETRIC ANALYSIS          \n');
@@ -73,10 +71,10 @@ fprintf('• Centroid: %%.4f\n\n', B3_Centroid);
 % -------------------------------------------------------------------------
 % 3. Defuzzification: Weighted Average Method
 % -------------------------------------------------------------------------
-% Now I'm calculating the crisp output (Y) based on firing strengths (w).
+% Computation of the crisp output (Y) based on firing strengths (w).
 % Formula: Y = sum(w * Area * Centroid) / sum(w * Area)
 
-w = [0.3 0.2 0.7]; % These are the degrees of fulfillment I'm using
+w = [0.3 0.2 0.7]; % Specific degrees of fulfillment
 numerator = 0;
 denominator = 0;
 
@@ -94,12 +92,12 @@ fprintf('• Crisp Output: Y = %%.4f\n', Y);
 fprintf('============================================================\n\n');
 
 % -------------------------------------------------------------------------
-% Scholarly Insight: The Geometric Heart of Fuzzy Inference
+% Scholarly Insight: The Geometric Basis of Defuzzification
 % -------------------------------------------------------------------------
-% Defuzzification isn't just about picking a number; it's about finding 
-% the "center of mass" of our collective fuzzy knowledge. In this script, 
-% I've used the Weighted Average method because it's computationally 
-% elegant while still respecting the individual contributions of each 
-% activated fuzzy set. This specific approach is what moves us from 
-% abstract linguistic labels to precise, actionable control signals in 
-% an industrial fuzzy system.
+% Defuzzification represents the critical translation of abstract fuzzy 
+% inference into a definitive, actionable control signal. The Weighted 
+% Average method provides a computationally efficient approximation of 
+% the Center of Gravity, successfully balancing the individual firing 
+% strengths of multiple activated fuzzy sets. This deterministic 
+% mapping forms the technical bridge between linguistic reasoning and 
+% precise industrial automation.

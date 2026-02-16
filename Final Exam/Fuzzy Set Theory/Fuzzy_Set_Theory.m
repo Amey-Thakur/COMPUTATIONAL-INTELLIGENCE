@@ -7,54 +7,53 @@
 % License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 % 
 % Description: 
-% This script explores and implements the Zadeh's Extension Principle, 
-% a fundamental concept in fuzzy set theory used to extend classical 
-% mathematical operations to fuzzy domains. It covers both one-to-one 
-% and two-to-one mappings, demonstrating how membership functions are 
-% transformed through algebraic functions while maintaining fuzzy 
-% uncertainty propagation.
+% Implementation of Zadeh's Extension Principle for transforming fuzzy 
+% sets via classical mathematical functions. The script evaluates 
+% one-to-one and two-to-one mappings, applying max-membership 
+% aggregation to maintain consistent uncertainty propagation across 
+% algebraic transformations.
 % =========================================================================
 
-% Clear environment
+% Environment initialization
 clc;
 clear;
 
 % -------------------------------------------------------------------------
 % 1. One-to-One Mapping Analysis
 % -------------------------------------------------------------------------
-% Here, I'm mapping a fuzzy set through a single-variable function: f(x) = x^2 - 5
+% Evaluation of a fuzzy set through a single-variable mapping: f(x) = x^2 - 5
 
 fprintf('============================================================\n');
 fprintf('           FUZZY SET THEORY: ONE-TO-ONE MAPPING               \n');
 fprintf('============================================================\n');
 
-% Set up the universe of discourse X1 and those specific membership grades ux1
+% Initial universe of discourse X1 and associated membership grades ux1
 X1 = -3:3;
 ux1 = [0.5 0.7 0.9 1 0.8 0.4 0.2];
 
 k = 1:length(X1);
-y = X1.^2 - 5; % Transform inputs through the target function
+y = X1.^2 - 5; % Algebraic transformation of input elements
 
-% Now, I apply the Extension Principle (max-membership) for cases where outputs overlap
+% Application of Extension Principle (max-membership) for overlapping outputs
 ub_single = [];
 unique_y = unique(y);
 
 for i = 1:length(unique_y)
-    % Find all indices in y that match the current unique output
+    % Identification of all mapping indices corresponding to unique outputs
     match_indices = find(y == unique_y(i));
-    % Grab the max membership value among all mapping inputs
+    % Selection of supreme membership grade for the overlapping set
     ub_single(i) = max(ux1(match_indices));
 end
 
-% Display the mapping transformation in a structured table
+% Tabular representation of mapping transformation steps
 T1 = table(k', X1', ux1', y', 'VariableNames', {'k', 'x', 'mu_x', 'y_output'});
 disp('Mapping Transformation Table (Step-by-Step):');
 disp(T1);
 
-% Build a dictionary for unique results to represent the final Fuzzy Set B
+% Resultant Fuzzy Set B construction via unique mapping pairs
 b_dict_single = dictionary(unique_y, ub_single);
 
-% Display the result in Fuzzy Set Notation: mu/y + mu/y ...
+% Representation via standard Fuzzy Set Notation: mu/y + mu/y ...
 output_str = 'Resultant Fuzzy Set B = ';
 keys_s = b_dict_single.keys;
 vals_s = b_dict_single.values;
@@ -74,27 +73,27 @@ fprintf('------------------------------------------------------------\n\n');
 % -------------------------------------------------------------------------
 % 2. Two-to-One Mapping Analysis
 % -------------------------------------------------------------------------
-% Next, I'm mapping two fuzzy sets through a multi-variable function: f(x1, x2) = x1 + x2
+% Evaluation of dual fuzzy sets through a multi-variable function: f(x1, x2) = x1 + x2
 
 fprintf('============================================================\n');
 fprintf('           FUZZY SET THEORY: TWO-TO-ONE MAPPING               \n');
 fprintf('============================================================\n');
 
-% Define my input universes and their respective membership functions
+% Input universe definitions and respective membership function parameters
 X1_in = [1, 2, 3];
 X2_in = [3, 4, 5, 6];
 
 A1_mu = [0.2, 0.5, 0.9];
 A2_mu = [0.2, 0.5, 0.9, 0.2];
 
-% Set up variables for the combinatorial mapping
+% Initialization for Cartesian product combinatorial mapping
 count = 1;
 x1_grid = []; a1_mu_grid = [];
 x2_grid = []; a2_mu_grid = [];
 y_combined = [];
 min_memberships = [];
 
-% Compute Cartesian product for all possible combinations of (x1, x2)
+% Generation of the Cartesian product for all (x1, x2) combinations
 for i = 1:length(X1_in)
     for j = 1:length(X2_in)
         x1_grid(count) = X1_in(i);
@@ -102,16 +101,16 @@ for i = 1:length(X1_in)
         x2_grid(count) = X2_in(j);
         a2_mu_grid(count) = A2_mu(j);
         
-        % Calculate output value: y = x1 + x2
+        % Combined output calculation: y = x1 + x2
         y_combined(count) = X1_in(i) + X2_in(j);
         
-        % I'm using the 'min' operator here for T-norm intersection (Mamdani style)
+        % T-norm intersection application using the minimum operator
         min_memberships(count) = min(A1_mu(i), A2_mu(j));
         count = count + 1;
     end
 end
 
-% Finally, apply the Extension Principle: B(y) = sup [ min(A1(x1), A2(x2)) ] s.t. y = x1 + x2
+% Final application of Extension Principle: B(y) = sup [ min(A1(x1), A2(x2)) ]
 unique_y_comb = unique(y_combined);
 ub_mult = [];
 
@@ -120,14 +119,14 @@ for i = 1:length(unique_y_comb)
     ub_mult(i) = max(min_memberships(indices));
 end
 
-% Construct consolidated table for my documentation
+% Consolidated results table for technical documentation
 k_mult = 1:length(y_combined);
 T2 = table(k_mult', x1_grid', a1_mu_grid', x2_grid', a2_mu_grid', y_combined', min_memberships', ...
     'VariableNames', {'k', 'x1', 'mu_x1', 'x2', 'mu_x2', 'y', 'min_mu'});
 disp('Multivariate Mapping Combinations:');
 disp(T2);
 
-% Representation of the final resulting Fuzzy Set B
+% Construction of the final resulting Fuzzy Set B
 b_dict_mult = dictionary(unique_y_comb, ub_mult);
 
 output_mult = 'Resultant Fuzzy Set B = ';
@@ -147,13 +146,12 @@ fprintf('Total Sigma-Count: %%.2f\n', sum(vals_m));
 fprintf('============================================================\n');
 
 % -------------------------------------------------------------------------
-% Scholarly Insight: The Bridge Between Fuzzy and Crisp Domains
+% Scholarly Insight: Theoretical Bridges in Fuzzy Propagation
 % -------------------------------------------------------------------------
-% The Extension Principle is essentially the "bridge" that allows us to 
-% take classical mathematical functions and run fuzzy data through them 
-% without losing the underlying uncertainty. In this script, by using the 
-% 'max' operator over overlapping outputs, I'm ensuring that we capture 
-% the most optimistic possibility of an outcome—this is critical for 
-% building robust fuzzy controllers where multiple diagnostic paths might 
-% lead to the same control action. It's the theoretical engine that makes 
-% "computing with words" analytically possible.
+% The Extension Principle establishes a foundational framework for 
+% propagating linguistic uncertainty through classical mathematical 
+% functions. By utilizing supreme aggregation over intersecting outputs, 
+% the system ensures that the resulting fuzzy distribution preserves the 
+% highest degree of potential truth. This theoretical engine is 
+% indispensable for building robust fuzzy inference architectures where 
+% discrete inputs must be mapped to complex decision surfaces.
