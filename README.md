@@ -125,7 +125,7 @@ Technical solutions and algorithmic models developed to implement neural network
 </div>
 
 > [!TIP]
-> This collection provides practical implementations of **Neural Networks**, **Fuzzy Logic**, and **Genetic Algorithms**. Each program is designed to demonstrate how these computational models process data, recognize patterns, and optimize solutions.
+> Computational Intelligence is not merely the execution of algorithms; it is the **practical toolkit for implementing neural networks, fuzzy logic, and genetic systems**. The following programs focus on **translating mathematical theory into working MATLAB solutions**—enabling the rigorous testing and verification of intelligent engineering models.
 
 | # | Topic | Source Code |
 | :-: | :--- | :---: |
