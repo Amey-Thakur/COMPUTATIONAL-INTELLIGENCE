@@ -93,7 +93,7 @@ Academic roadmap and administrative records for the Winter 2024 session:
 <!-- =========================================================================================
                                      ASSIGNMENTS SECTION
      ========================================================================================= -->
-## Assignments
+### Assignments
 
 A granular record of analytical assessments and tactical computational proofs conducted during the Winter 2024 session.
 
