@@ -125,7 +125,7 @@ Technical solutions and algorithmic models developed to implement neural network
 </div>
 
 > [!TIP]
-> Computational Intelligence is not merely the execution of algorithms; it is the **bridge between biological intuition and computational innovation**. The following implementations document the critical translation from **Biological Heuristics** to **Intelligent Systems**, facilitating the design and verification of complex engineering paradigms.
+> This collection provides practical implementations of **Neural Networks**, **Fuzzy Logic**, and **Genetic Algorithms**. Each program is designed to demonstrate how these computational models process data, recognize patterns, and optimize solutions.
 
 | # | Topic | Source Code |
 | :-: | :--- | :---: |
