@@ -24,30 +24,30 @@ clc;
 % -------------------------------------------------------------------------
 
 % --- Membership Function 1: Trapezoidal (Left-Heavy) ---
-% Definition: B1 = [a, b, c, d] = [0, 2, 4, 6]
+% I've defined this as B1 = [a, b, c, d] = [0, 2, 4, 6]
 B1 = [0, 2, 4, 6];
-% Theoretical Centroid (Center of Gravity for Trapezoid)
+% Here's the theoretical centroid (Center of Gravity for the Trapezoid)
 B1_Centroid = (B1(1) + B1(4)) / 2;
-% Geometric Area Calculation: ((base1 + base2) / 2) * height [Height assumed 1.0]
+% And the geometric area calculation: ((base1 + base2) / 2) * height
 B1_Area = ((B1(4)-B1(1)) + (B1(3)-B1(2))) / 2;
 
 % --- Membership Function 2: Triangular ---
 % Definition: B2 = [a, b, c] = [4, 6, 8]
 B2 = [4, 6, 8];
-% Theoretical Centroid (Center of Gravity for Triangle)
-B2_Centroid = (B2(1) + B2(3)) / 2; % Or simply B2(2) for symmetric triangles
-% Geometric Area Calculation: (base * height) / 2 [Height assumed 1.0]
+% Theoretical Centroid for the triangle
+B2_Centroid = (B2(1) + B2(3)) / 2; 
+% Geometric Area Calculation: (base * height) / 2
 B2_Area = (B2(3)-B2(1)) / 2;
 
 % --- Membership Function 3: Trapezoidal (Right-Heavy) ---
 % Definition: B3 = [a, b, c, d] = [6, 8, 9.6, 11.6]
 B3 = [6, 8, 9.6, 11.6];
-% Theoretical Centroid (Center of Gravity for Trapezoid)
+% Theoretical Centroid for this second trapezoid
 B3_Centroid = (B3(1) + B3(4)) / 2;
-% Geometric Area Calculation: ((base1 + base2) / 2) * height
+% Geometric Area Calculation
 B3_Area = ((B3(4)-B3(1)) + (B3(3)-B3(2))) / 2;
 
-% Aggregate properties for batch processing
+% I'm aggregating these properties now for batch processing
 areas = [B1_Area B2_Area B3_Area];
 centroids = [B1_Centroid B2_Centroid B3_Centroid];
 
@@ -73,10 +73,10 @@ fprintf('• Centroid: %%.4f\n\n', B3_Centroid);
 % -------------------------------------------------------------------------
 % 3. Defuzzification: Weighted Average Method
 % -------------------------------------------------------------------------
-% Calculating the crisp output (Y) based on firing strengths (w).
+% Now I'm calculating the crisp output (Y) based on firing strengths (w).
 % Formula: Y = sum(w * Area * Centroid) / sum(w * Area)
 
-w = [0.3 0.2 0.7]; % Assigned weights (Firing Strengths / Degrees of Fulfillment)
+w = [0.3 0.2 0.7]; % These are the degrees of fulfillment I'm using
 numerator = 0;
 denominator = 0;
 
@@ -92,3 +92,14 @@ fprintf('DEFUZZIFICATION RESULTS (Weighted Average Method):\n');
 fprintf('• Weights (w):  [%%.1f, %%.1f, %%.1f]\n', w(1), w(2), w(3));
 fprintf('• Crisp Output: Y = %%.4f\n', Y);
 fprintf('============================================================\n\n');
+
+% -------------------------------------------------------------------------
+% Scholarly Insight: The Geometric Heart of Fuzzy Inference
+% -------------------------------------------------------------------------
+% Defuzzification isn't just about picking a number; it's about finding 
+% the "center of mass" of our collective fuzzy knowledge. In this script, 
+% I've used the Weighted Average method because it's computationally 
+% elegant while still respecting the individual contributions of each 
+% activated fuzzy set. This specific approach is what moves us from 
+% abstract linguistic labels to precise, actionable control signals in 
+% an industrial fuzzy system.

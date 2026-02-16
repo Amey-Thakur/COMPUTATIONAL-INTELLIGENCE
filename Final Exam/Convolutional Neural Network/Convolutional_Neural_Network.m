@@ -19,7 +19,7 @@
 % -------------------------------------------------------------------------
 % 1. Input Image Configuration
 % -------------------------------------------------------------------------
-% Define the spatial dimensions and channel depth of the input tensor.
+% First, I'm defining the spatial dimensions and channel depth of the input tensor.
 % M: Height, N: Width, nC: Number of Color Channels (e.g., RGB = 3)
 M = 64; 
 N = 64; 
@@ -28,24 +28,24 @@ nC = 3;
 % -------------------------------------------------------------------------
 % 2. Convolutional Layer Hyperparameters
 % -------------------------------------------------------------------------
-% These parameters define the geometric transformation applied by the filters.
+% These are the parameters that define the geometric transformation applied by the filters.
 nF = 8;     % nF: Total number of independent filters (kernels) in the layer
 F1 = 5;     % F1: Spatial height of the filter kernel
 F2 = 5;     % F2: Spatial width of the filter kernel
-D = 4;      % D: Dilation factor (spacing between kernel elements)
-S = 1;      % S: Stride (step size of the kernel traversal across the image)
-P = 1;      % P: Zero-padding (number of pixel borders added to the input)
+D = 4;      % D: Dilation factor (how much I'm spacing out the kernel elements)
+S = 1;      % S: Stride (the step size as the kernel moves across the image)
+P = 1;      % P: Zero-padding (adding extra pixel borders to the input)
 
 % -------------------------------------------------------------------------
 % 3. Parameter Estimation (Trainable Weights)
 % -------------------------------------------------------------------------
-% A convolutional filter's weight count is determined by its kernel size 
-% and the depth of the input volume (nC), plus one bias term.
+% Now I'll estimate the weight count for a convolutional filter based 
+% on kernel size and the depth of the input volume (nC), plus one bias term.
 
-% Calculates weights per single filter: (FilterHeight * FilterWidth * InputChannels) + Bias
+% I'm calculating weights per single filter: (FilterHeight * FilterWidth * InputChannels) + Bias
 W = (F1 * F2 * nC) + 1;
 
-% Calculates total weights for the entire layer: (WeightsPerFilter * TotalFilters)
+% Then, the total weights for the entire layer: (WeightsPerFilter * TotalFilters)
 nW = W * nF;
 
 % -------------------------------------------------------------------------
@@ -71,8 +71,8 @@ fprintf('• Total Layer Weights (nW):    %%d x %%d = %%d\n\n', W, nF, nW);
 % -------------------------------------------------------------------------
 % 5. Spatial Transformation Logic (Output Dimensionality)
 % -------------------------------------------------------------------------
-% Calculate the spatial dimensions of the output feature map.
-% The formula accounts for padding (P), dilation (D), and stride (S).
+% Here, I'm calculating the spatial dimensions of the output feature map.
+% The formula takes into account padding (P), dilation (D), and stride (S).
 
 % Effective filter size due to dilation: Feft = D * (F - 1) + 1
 % Output Size: floor((Input + 2*Padding - Feft) / Stride + 1)
@@ -87,7 +87,7 @@ fprintf('• Output Width (N_out):        floor((%%d + 2*%%d - %%d*(%%d-1) - 1) 
 % -------------------------------------------------------------------------
 % 6. Feature Map Analysis
 % -------------------------------------------------------------------------
-% Each filter produces one feature map (channel) in the output volume.
+% Each filter is going to produce one feature map in the output volume.
 Mc = M_out; 
 Nc = N_out; 
 
@@ -97,10 +97,21 @@ fprintf('• Individual Map Size:          [%%d x %%d] = %%d neurons\n\n', Mc, N
 % -------------------------------------------------------------------------
 % 7. Final Neuronal Density
 % -------------------------------------------------------------------------
-% The total number of neurons in the layer's output is the product of 
-% feature map spatial size and the total number of filters.
+% Finally, the total number of neurons in the layer's output is the product 
+% of feature map spatial size and the total number of filters.
 total_neurons = Mc * Nc * nF;
 
 fprintf('STEP 3: TOTAL NEURONAL COUNT\n');
 fprintf('• Total Output Neurons:         %%d x %%d x %%d = %%d\n', Mc, Nc, nF, total_neurons);
 fprintf('============================================================\n\n');
+
+% -------------------------------------------------------------------------
+% Scholarly Insight: The Spatial Complexity of Deep Learning
+% -------------------------------------------------------------------------
+% Understanding these structural calculations is fundamental because it 
+% highlights how architectural choices—like dilation and stride—directly 
+% impact the computational overhead and the "receptive field" of the 
+% network. In this script, I've shown how even a simple 64x64 input can 
+% quickly scale in neuronal density depending on filter count. Mastering 
+% this geometry is what allows us to design efficient models that don't 
+% just perform well, but are also optimized for the underlying hardware.
