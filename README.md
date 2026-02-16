@@ -120,7 +120,7 @@ Technical solutions and algorithmic models developed to implement neural network
 
 <div align="center">
 
-[![Programs](https://img.shields.io/badge/Programs-17-yellow.svg)](MATLAB/) [![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)](https://www.mathworks.com/products/matlab.html) [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE) [![Developed by](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+[![Programs](https://img.shields.io/badge/Programs-17-yellow.svg)](MATLAB/) [![Language](https://img.shields.io/badge/Language-MATLAB-orange.svg)](https://www.mathworks.com/products/matlab.html) [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE) [![Developed by](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
 
 </div>
 
