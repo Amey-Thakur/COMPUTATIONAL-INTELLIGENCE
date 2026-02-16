@@ -99,7 +99,7 @@ A granular record of analytical assessments and tactical computational proofs co
 
 | # | Assignment | Topics | Source Code | Report | Marks |
 | :-: | :--- | :--- | :---: | :---: | :---: |
-| 1 | **AM Quiz** | Associative Memories (AM) | — | [Report](Assignments/Assignment%20-%20AM/Summary%20-%20Assignment%20-%20AM%20(3%25).pdf) | 1 / 1 |
+| 1 | **AM Quiz** | Associative Memories (AM) | — | [View](Assignments/AM%20Quiz%201.jpg) | 1 / 1 |
 | 2 | **Assignment 1** | Associative Memories (AM/BAM) | [BAM](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m) & [Hopfield](Assignments/Assignment%20-%20AM/Generalized_Hopfield_Step_Function.m) | [Q1A & Q1B](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | 1 / 3 |
 | 3 | **Assignment 2** | Self-Organizing Maps (SOM) | [SOM](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m) | [Report](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | 4 / 4 |
 | 4 | **Assignment 3** | Learning Vector Quantization (LVQ) | [LVQ](Assignments/Assignment%20-%20LVQ/Learning_Vector_Quantization.m) | [Report](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | 3 / 3 |
