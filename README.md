@@ -121,15 +121,25 @@ Technical solutions and algorithmic models developed to implement neural network
 > [!TIP]
 > Computational Intelligence is not merely the execution of algorithms; it is the **bridge between biological intuition and computational innovation**. Every module below focuses on the critical translation from **Biological Heuristics** to **Intelligent Systems**, enabling the iterative design and verification of complex engineering paradigms.
 
-| # | Topic | Assignment | Archival Implementations |
-| :-: | :--- | :---: | :--- |
-| 1 | **Associative Memories** | A01 | • **[Bidirectional Associative Memory](Assignments/Assignment%20-%20AM/Bidirectional_Associative_Memory.m)** — MATLAB Program — by Amey Thakur<br>• **[Generalized Hopfield Network](Assignments/Assignment%20-%20AM/Generalized_Hopfield_Step_Function.m)** — MATLAB Program — by Amey Thakur |
-| 2 | **Self-Organizing Maps** | A02 | • **[Self-Organizing Maps (Kohonen)](Assignments/Assignment%20-%20SOM/Self_Organizing_Maps_Kohonen.m)** — MATLAB Program — by Amey Thakur |
-| 3 | **Vector Quantization** | A03 | • **[Learning Vector Quantization](Assignments/Assignment%20-%20LVQ/Learning_Vector_Quantization.m)** — MATLAB Program — by Amey Thakur |
-| 4 | **Radial Basis Functions** | A04 | • **[Radial Basis Function Network](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Network.m)** — MATLAB Program — by Amey Thakur<br>• **[Radial Basis Function Optimization](Assignments/Assignment%20-%20RBF/Radial_Basis_Function_Optimization.m)** — MATLAB Program — by Amey Thakur |
-| 5 | **Fuzzy Logic Foundations** | A05 | • **[Fuzzy Set Theory Operations](Assignments/Assignment%20-%20FSet/Fuzzy_Set_Theory_Operations.m)** — MATLAB Program — by Amey Thakur |
-| 6 | **Genetic Algorithms** | A08 | • **[Genetic Algorithm Implementation](Assignments/Assignment%20-%20GA/Genetic_Algorithm_Implementation.m)** — MATLAB Program — by Amey Thakur |
-| 7 | **Utility Simulations** | — | • **[Binary to Decimal Conversion](MATLAB/Binary_to_Decimal_Conversion.m)** — MATLAB Program — by Amey Thakur<br>• **[Decimal to Binary Conversion](MATLAB/Decimal_to_Binary_Conversion.m)** — MATLAB Program — by Amey Thakur |
+| # | Topic | Source Code | View |
+| :-: | :--- | :--- | :---: |
+| 1 | **Associative Memories** | Bidirectional Associative Memory — MATLAB Program — by Amey Thakur | [View](MATLAB/Bidirectional_Associative_Memory.m) |
+| 2 | **Associative Memories** | Generalized Hopfield Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Generalized_Hopfield_Step_Function.m) |
+| 3 | **Self-Organizing Maps** | Self-Organizing Maps (Kohonen) — MATLAB Program — by Amey Thakur | [View](MATLAB/Self_Organizing_Maps_Kohonen.m) |
+| 4 | **Vector Quantization** | Learning Vector Quantization — MATLAB Program — by Amey Thakur | [View](MATLAB/Learning_Vector_Quantization.m) |
+| 5 | **Radial Basis Functions** | Radial Basis Function Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Radial_Basis_Function_Network.m) |
+| 6 | **Radial Basis Functions** | Radial Basis Function Optimization — MATLAB Program — by Amey Thakur | [View](MATLAB/Radial_Basis_Function_Optimization.m) |
+| 7 | **Fuzzy logic and Reasoning** | Fuzzy Logic and Reasoning — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Logic_and_Reasoning.m) |
+| 8 | **Fuzzy Reasoning System** | Fuzzy Reasoning System — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Reasoning_System.m) |
+| 9 | **Fuzzy Set Theory** | Fuzzy Set Theory — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Set_Theory.m) |
+| 10 | **Fuzzy Logic Foundations** | Fuzzy Set Theory Operations — MATLAB Program — by Amey Thakur | [View](MATLAB/Fuzzy_Set_Theory_Operations.m) |
+| 11 | **Genetic Algorithms** | Genetic Algorithm Implementation — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Implementation.m) |
+| 12 | **Genetic Algorithms** | Genetic Algorithm Optimization — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Optimization.m) |
+| 13 | **Genetic Algorithms** | Genetic Algorithm Variant I — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Variant_I.m) |
+| 14 | **Genetic Algorithms** | Genetic Algorithm Variant II — MATLAB Program — by Amey Thakur | [View](MATLAB/Genetic_Algorithm_Variant_II.m) |
+| 15 | **Deep Learning** | Convolutional Neural Network — MATLAB Program — by Amey Thakur | [View](MATLAB/Convolutional_Neural_Network.m) |
+| 16 | **Utility Simulations** | Binary to Decimal Conversion — MATLAB Program — by Amey Thakur | [View](MATLAB/Binary_to_Decimal_Conversion.m) |
+| 17 | **Utility Simulations** | Decimal to Binary Conversion — MATLAB Program — by Amey Thakur | [View](MATLAB/Decimal_to_Binary_Conversion.m) |
 
 ---
 
