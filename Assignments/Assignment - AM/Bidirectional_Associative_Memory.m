@@ -81,7 +81,7 @@ fprintf('Retrieved Output: [%s]\n', num2str(yt_retrieved));
 fprintf('Retrieved Input (Attractor): [%s]\n', num2str(xt_retrieved));
 
 % =========================================================================
-% Impactful Scholarly Insight:
+% Scholarly Insight:
 % The Bidirectional Associative Memory (BAM) leverages the stability 
 % properties of the energy landscape created by the correlation matrix. 
 % It establishes a robust hetero-associative mapping where stored pairs 

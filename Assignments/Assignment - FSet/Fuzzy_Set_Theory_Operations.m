@@ -43,7 +43,7 @@ fprintf('--- Fuzzy Relational Membership Vector ---\n');
 disp(minm');
 
 % =========================================================================
-% Impactful Scholarly Insight:
+% Scholarly Insight:
 % The application of T-norm operators such as the 'min' function is 
 % pivotal in the construction of fuzzy relations. By evaluating the 
 % intersection of membership grades across multiple universes of discourse, 

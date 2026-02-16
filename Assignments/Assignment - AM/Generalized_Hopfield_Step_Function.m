@@ -28,7 +28,7 @@ function x = Generalized_Hopfield_Step_Function(a)
 end
 
 % =========================================================================
-% Impactful Scholarly Insight:
+% Scholarly Insight:
 % The bipolar step function is critical in non-linear feedback networks. 
 % By forcing synaptic weights into a discrete state space, the function 
 % enables the formation of stable attractors and energy minima, which are 
