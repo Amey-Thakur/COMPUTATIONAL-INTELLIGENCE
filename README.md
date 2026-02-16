@@ -118,6 +118,12 @@ A granular record of analytical assessments and tactical computational proofs co
 
 Technical solutions and algorithmic models developed to implement neural networks, fuzzy logic, and genetic algorithms.
 
+<div align="center">
+
+[![Programs](https://img.shields.io/badge/Programs-17%20Artifacts-blue.svg)](MATLAB/) [![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)](https://www.mathworks.com/products/matlab.html) [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE) [![Developed by](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+
+</div>
+
 > [!TIP]
 > Computational Intelligence is not merely the execution of algorithms; it is the **bridge between biological intuition and computational innovation**. Every module below focuses on the critical translation from **Biological Heuristics** to **Intelligent Systems**, enabling the iterative design and verification of complex engineering paradigms.
 
