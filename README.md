@@ -99,7 +99,7 @@ A granular record of analytical assessments and tactical computational proofs co
 
 | # | Assignment | Topics | Marks |
 | :-: | :--- | :--- | :---: |
-| 1 | **AM Quiz** | Associative Memories (AM) | 1 / 1 |
+| 1 | [**AM Quiz**](Assignments/Assignment%20-%20AM/Summary%20-%20Assignment%20-%20AM%20(3%25).pdf) | Associative Memories (AM) | 1 / 1 |
 | 2 | [**Assignment 1**](Assignments/Assignment%20-%20AM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-01-31.pdf) | Associative Memories (AM/BAM) | 1 / 3 |
 | 3 | [**Assignment 2**](Assignments/Assignment%20-%20SOM/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-04.pdf) | Self-Organizing Maps (SOM) | 4 / 4 |
 | 4 | [**Assignment 3**](Assignments/Assignment%20-%20LVQ/Amey%20Mahendra%20Thakur%20-%20110107589%20-%202024-02-17.pdf) | Learning Vector Quantization (LVQ) | 3 / 3 |
