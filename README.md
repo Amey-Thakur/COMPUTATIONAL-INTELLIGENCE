@@ -60,7 +60,7 @@ As I progress in my career, I recognize that the foundations of computational in
 - **Community Contribution**: To share these resources with students and learners who may benefit from them
 
 > [!NOTE]
-> All materials were created, compiled, and organized by me during the Winter 2024 semester as part of my MEng degree requirements.
+> All materials were created, compiled, and organized by me during the **Winter 2024** semester as part of my MEng degree requirements.
 
 ---
 
@@ -80,7 +80,7 @@ This collection includes **comprehensive reference materials** covering all majo
 ---
 
 ### Personal Preparation
-Academic roadmap and administrative records for the Winter 2024 session:
+Academic roadmap and administrative records for the **Winter 2024** session:
 
 | # | Resource | Description |
 |:-:|:---|:---|
@@ -95,7 +95,7 @@ Academic roadmap and administrative records for the Winter 2024 session:
      ========================================================================================= -->
 ### Assignments
 
-A granular record of analytical assessments and tactical computational proofs conducted during the Winter 2024 session.
+A granular record of analytical assessments and tactical computational proofs conducted during the **Winter 2024** session.
 
 | # | Assignment | Topics | Source Code | Report | Marks |
 | :-: | :--- | :--- | :---: | :---: | :---: |
