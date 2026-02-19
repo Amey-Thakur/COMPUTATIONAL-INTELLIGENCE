@@ -238,7 +238,9 @@ This repository represents a comprehensive collection of study materials, refere
 
 ### Acknowledgments
 
-Grateful acknowledgment to **Dr. Hon Kwan** for his exceptional instruction in Computational Intelligence, which played an important role in shaping my understanding of the subject. His clear and disciplined approach, along with his thorough explanation of neural networks, fuzzy logic, and genetic algorithms, made the subject both accessible and engaging. His dedication to academic excellence in the field of intelligent systems is gratefully acknowledged.
+Grateful acknowledgment to **Dr. Hon Kwan** for his exceptional instruction in Computational Intelligence, which played a pivotal role in shaping my analytical understanding of the subject. His clear and disciplined approach, along with his thorough explanation of neural networks, fuzzy logic, and genetic algorithms, made the subject both accessible and engaging. His distinguished expertise and commitment to academic excellence in **Computational Intelligence** are sincerely appreciated.
+
+Grateful acknowledgment to **Archit Konde** for his outstanding understanding and distinguished peer mentorship. His exceptional ability to explain complex concepts with clarity and precision significantly enhanced my learning experience throughout the Computational Intelligence course. His dedication to academic excellence and scholarly support was fundamental to my mastery of advanced intelligent architectures and conceptual development.
 
 Special thanks to the **mentors** and **peers** whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
