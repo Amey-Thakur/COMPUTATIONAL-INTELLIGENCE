@@ -1,4 +1,4 @@
-<!-- =========================================================================================
+﻿<!-- =========================================================================================
                                      HEADER SECTION
      ========================================================================================= -->
 <div align="center">
@@ -84,7 +84,7 @@ Academic roadmap and administrative records for the **Winter 2024** session:
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Course Syllabus](ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20(GA%2C20240323)v3.pdf) | Official course outcomes and assessment specifications |
+| 1 | [Course Syllabus](ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20%28GA%2C20240323%29v3.pdf) | Official course outcomes and assessment specifications |
 | 2 | [MEng Class Schedule](View%20My%20Classes%20-%20Winter%202024.pdf) | Enrollment record and pedagogical timeline |
 | 3 | [Midterm Exam Revision](CI%20-%20Midterm%20Exam%20Revision.pdf) | Targeted theoretical synthesis for midterm evaluation |
 
@@ -184,7 +184,7 @@ The graded performance record documents academic achievement across various asse
      ========================================================================================= -->
 ## Syllabus
 
-> **[Official ELEC 8330 Syllabus](ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20(GA%2C20240323)v3.pdf)**  
+> **[Official ELEC 8330 Syllabus](ELEC8330%20Syllabus%20for%202024%20Winter%20Graduate%20Courses%20%28GA%2C20240323%29v3.pdf)**  
 > Complete graduate-level syllabus document for the **Winter 2024** session, including detailed course outcomes, theoretical modules, and assessment criteria for Computational Intelligence.
 
 > [!IMPORTANT]
