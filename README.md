@@ -54,10 +54,10 @@ As I progress in my career, I recognize that the foundations of computational in
 
 **Why this repository exists:**
 
-- **Knowledge Preservation**: To maintain organized access to comprehensive study materials beyond the classroom
-- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of fundamental intelligent principles
-- **Academic Documentation**: To authentically document my learning journey through Computational Intelligence
-- **Community Contribution**: To share these resources with students and learners who may benefit from them
+- **Knowledge Preservation**: To maintain organized access to comprehensive study materials beyond the classroom.
+- **Continuous Learning**: To support lifelong learning by enabling easy revisitation of fundamental intelligent principles.
+- **Academic Documentation**: To authentically document my learning journey through Computational Intelligence.
+- **Community Contribution**: To share these resources with students and learners who may benefit from them.
 
 > [!NOTE]
 > All materials were created, compiled, and organized by me during the **Winter 2024** semester as part of my MEng degree requirements.
@@ -264,8 +264,8 @@ Special thanks to the **mentors** and **peers** whose encouragement, discussions
 
   ### 🎓 [MEng Computer Engineering Repository](https://github.com/Amey-Thakur/MENG-COMPUTER-ENGINEERING)
 
-  **Computer Engineering (M.Eng) - University of Windsor**
+  **Computer Engineering (M.Eng.) - University of Windsor**
 
-  *An archival record of **graduate-level research** and **advanced engineering coursework**.*
+  *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
