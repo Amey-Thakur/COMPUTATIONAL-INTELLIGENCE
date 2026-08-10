@@ -16,7 +16,7 @@
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
   [![University](https://img.shields.io/badge/University-Windsor-005596.svg)](https://www.uwindsor.ca)
   [![Program](https://img.shields.io/badge/Program-MEng%20Computer%20Engineering-FFCE00.svg)](https://www.uwindsor.ca/engineering/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   <!-- Short Description -->
   **A comprehensive academic archive for Computational Intelligence (ELEC 8330), documenting technical proficiency in neural architectures, fuzzy logic systems, evolutionary computing, and intelligent optimization standards within the Master of Engineering program.**
@@ -121,7 +121,7 @@ Technical solutions and algorithmic models developed to implement neural network
 
 <div align="center">
 
-[![Programs](https://img.shields.io/badge/Programs-17-yellow.svg)](MATLAB/) [![Language](https://img.shields.io/badge/Language-MATLAB-orange.svg)](https://www.mathworks.com/products/matlab.html) [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE) [![Developed by](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+[![Programs](https://img.shields.io/badge/Programs-17-3949AB.svg)](MATLAB/) [![Language](https://img.shields.io/badge/Language-MATLAB-0076A8.svg)](https://www.mathworks.com/products/matlab.html) [![Status](https://img.shields.io/badge/Status-Completed-2EA043.svg)](https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE) [![Developed by](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
 </div>
 
@@ -269,3 +269,4 @@ Special thanks to the **mentors** and **peers** whose encouragement, discussions
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
+
