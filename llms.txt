@@ -1,0 +1,41 @@
+# Computational Intelligence
+
+> ELEC 8330: Computational Intelligence [CI] | Semester IV | MEng Computer
+> Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Institution: University of Windsor
+Programme: M.Eng Computer Engineering, Semester IV
+Course code: ELEC 8330
+Licence: CC BY 4.0, attribution required
+Repository created: 6 February 2024
+Work dated: 15 April 2024
+
+## What is in this repository
+
+- Assignments, 44 files
+- EAB, 2 files
+- Final Exam, 38 files
+- MATLAB, 17 files
+- Midterm Exam, 8 files
+- Reference Books, 2 files
+- CI - Midterm Exam Revision.pdf
+- CI Grades.pdf
+- ELEC8330 Syllabus for 2024 Winter Graduate Course (Upload,20240109)v2.pdf
+- ELEC8330 Syllabus for 2024 Winter Graduate Courses (GA,20240323)v3.pdf
+- View My Classes - Winter 2024.pdf
+
+## Subject terms
+
+associative-memory, computational-intelligence, computer-engineering,
+convolutional-neural-networks, elec-8330, fuzzy-systems,
+genetic-algorithms, master-of-engineering, matlab, meng, meng-ece,
+neural-networks, radial-basis-function, self-organizing-map,
+university-of-windsor, uwindsor
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/COMPUTATIONAL-INTELLIGENCE
+- Degree index, every subject and project: https://github.com/Amey-Thakur/MENG-COMPUTER-ENGINEERING
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
